@@ -21,12 +21,12 @@ if ( $firstName && $senderEmail && $senderPhone && $message) {
   $success = mail( $recipient, $headers, $msgBody );
 
   //Set Location After Successsfull Submission
-  header('Location: index.html');
+  header('Location: ../index.html');
 }
 
 else{
 	//Set Location After Unsuccesssfull Submission
-  	header('Location: index.html');
+  	header('Location: ../index.html');
 }
 
 ?>
